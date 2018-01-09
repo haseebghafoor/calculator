@@ -34,7 +34,7 @@ if(empty($GOLOBAL['fnumber'])||empty($GOLOBAL['snumber']))
 	
 	{
 	$Multiplication=$GOLOBAL['fnumber']*$GOLOBAL['snumber'];
-	echo $GOLOBAL['fnumber']."*".$GOLOBAL['snumber']."=".$Multiplication;
+	echo "Answer=".$GOLOBAL['fnumber']."*".$GOLOBAL['snumber']."=".$Multiplication;
 	}
 	else 
 		if(isset($_REQUEST['sub']))
