@@ -25,7 +25,7 @@ if(empty($GOLOBAL['fnumber'])||empty($GOLOBAL['snumber']))
 	
 	{
 	$GOLOBAL['addition']=$GOLOBAL['fnumber']+$GOLOBAL['snumber'];
-	echo $GOLOBAL['fnumber']."+".$GOLOBAL['snumber']."=".$GOLOBAL['addition'];
+	echo "Answer=".$GOLOBAL['fnumber']."+".$GOLOBAL['snumber']."=".$GOLOBAL['addition'];
 	}	
 	
 	else 
